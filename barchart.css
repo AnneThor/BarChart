@@ -1,0 +1,44 @@
+html {
+  font-size: 10px;
+  background-color: rgb(255,182,193);
+}
+
+#title {
+  font-size: 3em;
+  text-shadow: 1px 1px grey;
+  text-align: center;
+  padding-top: 10vh;
+
+}
+
+
+svg {
+  background-color: rgba(255,255,255,.4);
+  margin: auto;
+  border: solid grey 2px;
+  border-radius: 2px;
+  display: flex;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.bar {
+  fill: grey;
+}
+
+.bar:hover {
+  fill: pink;
+}
+
+#tooltip {
+  position: absolute;
+  text-align: center;
+  width: 120px;
+  height: 16px;
+  padding: 2px;
+  font: 12px sans-serif;
+  background: lightsteelblue;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+}
